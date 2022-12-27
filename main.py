@@ -34,7 +34,7 @@ def send_birthday_mail(name:str) ->None:
 
     connection = smtplib.SMTP(host="smtp.gmail.com", port=587)
     connection.starttls()
-    connection.login(user="testor.testing.the.test@gmail.com", password="bbnsmgilamwxvhfr")
+    connection.login(user="testor.testing.the.test@gmail.com", password="")
     
     connection.sendmail(from_addr="testor.testing.the.test@gmail.com", to_addrs="tehelp.us@yahoo.com",
     
